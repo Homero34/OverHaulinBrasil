@@ -5,8 +5,8 @@
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
-  color: black;
-  background-color: white;
+  color: rgb(235, 89, 89);
+  background-color: rgb(85, 27, 27);
 }
 
 nav {
