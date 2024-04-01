@@ -9,7 +9,7 @@
       }
 
      body{
-        background-color: white;
+        background-color: rgb(255, 255, 255);
         padding: 20px;
         margin: 0;
      }
@@ -20,7 +20,7 @@
 
      img{
     line-height: 20px; 
-    margin: 0 auto;
+    margin: auto;
     float: right;
 }   
  a:link, a:visited{
