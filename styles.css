@@ -9,38 +9,74 @@
       }
 
      body{
-        background-color: rgb(255, 255, 255);
+        background-color: white;
         padding: 20px;
         margin: 0;
      }
 
      p{
+      border: 2px solid black;
         color: black;
      }
-
-     img{
-    line-height: 20px; 
-    margin: auto;
-    float: right;
-}   
- a:link, a:visited{
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  border: 2px solid rgb(0, 0, 0);
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
- }
- a:hover, a:active {
-  background-color: black;
-  color: white;
-}
 h1{
     color: white;
 }
-p{
-    border: 2px solid black;
-    color: black;
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(51, 51, 51);
+}
+li{
+ float: left;
+  
+}
+li a{
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 12px 17px;
+  text-decoration: none;
+}
+li a:hover{
+  background-color: rgb(170, 170, 46);
+}
+div.gallery {
+border: 1px solid #ccc;
+}
+div.gallery:hover {
+  border: 1px solid #777;
 
+}
+div.gallery img{
+  width: 100%;
+  height: auto;
+}
+div.desc {
+  padding: 13px;
+  text-align: center;
+}
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 25%;
+}
+@media only screen and (max-width: 400px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
