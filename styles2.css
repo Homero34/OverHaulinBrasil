@@ -1,0 +1,17 @@
+.contato input{
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px #999;
+    min-width: 350px;
+    background: #f7f7f7;
+    margin-bottom: 12px;
+    display: block;
+  }
+  .contato label{
+    width: 100%;
+    display: block;
+  }
+  .contato button{
+    display: block;
+    margin-bottom: 12px;
+  }
