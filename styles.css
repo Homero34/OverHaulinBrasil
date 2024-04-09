@@ -105,7 +105,7 @@ img{
   
 }
 .container-img{
-  align-items:center ;
+  align-items:center;
   display: flex;
   clear: both;
   gap: 125px;
