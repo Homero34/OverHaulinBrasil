@@ -1,4 +1,2 @@
 function myFunction() {
-    document.getElementById("demo").innerHTML = "Cadastro Realizado!";
-    
-  }
+  document.getElementById("demo").innerHTML = "Bem Vindo";}
