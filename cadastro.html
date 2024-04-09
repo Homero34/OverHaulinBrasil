@@ -1,36 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link rel="stylesheet" href="styles3.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles2.css">
-    <script src="script1.js"></script>
-    <title>Cadastro de Membros - OverHaulinBrasilia</title>
+    <title>Cadastro</title>
+    <script src="script.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <div class="header">
-        <h1>Cadastro de Membros - OverHaulinBrasilia</h1>
-    </div>
-        <main id="conteudo">
-            <div class="container">
-                <div class="info">
-                    <h2>Cadastro:</h2>
-                    <form class="contato" action="" method="post">
-                        <input type="text" name="nome" placeholder="Seu Nome">
-                        <input type="email" name="email" placeholder="E-Mail">
-                        <input type="password" name="senha" placeholder="Senha">
-                        <input type="password" name="senha" placeholder="Confirme a Senha">
-                        <button>Seja Membro</button>
-                    </form>
-                </div>
+    <div class="wrapper">
+        <form action="">
+            <h1>Cadastre-se</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Usuario"
+                required>
+                <i class='bx bxs-user'></i>
             </div>
-        </main>
-    <footer>
+            <div class="input-box">
+              <input type="password" placeholder="E-mail"
+              required>
+              <i class='bx bxs-user'></i>
+          </div>
+            <div class="input-box">
+                <input type="password" placeholder="Senha"
+                required>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <div class="input-box">
+              <input type="password" placeholder="Confirma Senha"
+              required>
+              <i class='bx bxs-lock-alt'></i>
+          </div>
+            <div class="remeber-forgot">
+                <label ><input type="checkbox">Tenho Carro</label>
+            </div>
 
-        <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnRoNXJscDVjMThvYWt0MHdjNmx3aGJtOWgzMHdlMmY2d2FjMjJvZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8TnPaZx2hbsOY/giphy.gif" alt="Computer Man" style="width:400px;height:250px;">
+        <button type="submit" class="bnt">Pronto</button>
 
-        <p>&copy; 2024 ClubeOverHaulinBrasilia odos os direitos reservados.</p>
-    </footer>
-
+        <div class="register-link">
+            <p>Seja Bem Vindo!</p>
+        </div>
+        </form>
+    </div>
+    
+    
 </body>
 </html>
