@@ -9,8 +9,8 @@ body {
  display: flex;   
  justify-content: center;
  align-items: center;
- min-height: 90vh;
- background: url('https://images.pexels.com/photos/192501/pexels-photo-192501.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')no-repeat;
+ min-height: 100vh;
+ background: url('https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg?auto=compress&cs=tinysrgb&w=12000')no-repeat;
 background-size: cover;
 background-position: center;
 }
