@@ -1,8 +1,3 @@
-console.log('Hello!');
-
-function myFunction() {
-    document.getElementById("demo").innerHTML = "Login Realizado!";
-    
+function funcao() {
+  alert("Cadastro Feito com sucesso.");
   }
-
-  
