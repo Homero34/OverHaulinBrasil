@@ -5,6 +5,17 @@
   margin: 0;
 }
 
+.header-gallery{
+  background: url(https://images.pexels.com/photos/261985/pexels-photo-261985.jpeg?auto=compress&cs=tinysrgb&w=970);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: auto;
+      padding: 155px;
+      text-align: center;
+      font-size: 30px;
+     
+}
+
 
 body {
     margin: 0;
@@ -22,7 +33,7 @@ body {
     border-radius: 20px;
     overflow: hidden;
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -87,3 +98,18 @@ body {
     margin-left: -80%;
   }
   
+  .column{
+  float: right;
+  width: 33.33%;
+  padding: 20px;
+  }
+
+  div.layout{
+    img{
+      width: auto;
+      height: auto;
+      float: inline-start;
+      border-radius: 5%;
+      box-shadow: #ccc;
+    }
+    }
