@@ -1,2 +1,3 @@
-function myFunction() {
-  document.getElementById("demo").innerHTML = "Bem Vindo";}
+function funcao1() {
+alert("Bem Vindo de Volta.");
+}
