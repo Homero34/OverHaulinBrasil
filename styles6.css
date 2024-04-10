@@ -98,8 +98,8 @@ body {
     margin-left: -80%;
   }
   
-  .column{
-  float: right;
+  .column-text{
+  float: inline-start;
   width: 33.33%;
   padding: 20px;
   }
