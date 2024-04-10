@@ -131,7 +131,7 @@ img{
 }
 
 .column-text{
-  float: right;
+  float: inline-start;
   width: 33.33%;
   padding: 20px;
 
