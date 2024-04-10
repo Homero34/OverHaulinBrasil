@@ -36,7 +36,7 @@ h2{
   color: white;
 }
 h3{
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 h4{
   color: white;
@@ -57,7 +57,7 @@ li a{
   display: block;
   color: rgb(255, 255, 255);
   text-align: center;
-  padding: 30px 155px;
+  padding: 30px 199.7px;
   text-decoration: none;
 }
 li a:hover{
@@ -109,11 +109,11 @@ div.desc {
   justify-content: left;
   display: flex;
   clear: both;
-  gap: 125px;
+  gap: 100px;
   p2{
     width: 45%;
     color: black;
-    font-size: 24px;
+    font-size: 20px;
   }
   img{
     border-radius: 50%;
@@ -128,4 +128,11 @@ img{
   border-radius: 5%;
   box-shadow: #ccc;
 }
+}
+
+.column-text{
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+
 }

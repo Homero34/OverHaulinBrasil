@@ -114,3 +114,58 @@ text-align: center;
 .register-link p a :hover {
  text-decoration: underline;
 }
+
+.center {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+
+    i{
+        position: absolute;
+        right: 60px;
+        top: 69.5%;
+        transform: translateY(-50%);
+        font-size: 20px;
+      }
+
+input[type="checkbox"]{
+    position: relative;
+    width: 80px;
+    height: 40px;
+    -webkit-appearance: none;
+    background: gray;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+    transition: .5s;
+    
+}
+input:checked[type="checkbox"] {
+    background: #ffffff;
+}  
+input[type="checkbox"]:before { 
+content: '';
+position: absolute;
+width: 40px;
+height: 40px;
+border-radius: 20px;
+top: 0;
+left: 0;
+background: #b4b4b4;
+transform: scale(1.1);
+box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+transition: .5s;
+
+}   
+input:checked[type="checkbox"]:before{
+    left: 40px;
+}
+}
+

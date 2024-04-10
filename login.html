@@ -1,86 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" href="styles3.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clube OverHaulinBrasilia</title>
+    <title>Login</title>
     <script src="script.js"></script>
-    <style>
-        * {
-  font-family: 'Courier New', Courier, monospace;
-}
-     .header {
-      background-color: rgb(0, 0, 0);
-      padding: 20px;
-      text-align: center;
-      color: rgb(255, 255, 255);
-      }
-     body{
-        background-color: rgb(255, 255, 255);
-        padding: 20px;
-     }
-
-     p{
-        color: rgb(0, 0, 0);
-     }
- 
-     main{
-        color: rgb(0, 0, 0);
-        text-align: center;
-     }
-    
-    </style>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <div = class="header">
-        <h1>Login - OverHaulinBrasilia </h1>
-    </div>
-    <br>
-    <br>
-    <br>
-    <main>
-        <form action="dashboard.html" method="post">
-            <label for="username">Usuário:</label><br>
-            <input type="text" id="username" name="username"><br>
-            <label for="password">Senha:</label><br>
-            <input type="password" id="password" name="password"><br>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email"><br><br>
-            <input type="checkbox" id="Temcarro" name="Temcarro" value="Carro">
-            <label for="Temcarro"> Eu possuo carro</label><br>
-            <input type="checkbox" id="Naotemcarro" name="Naotemcarro" value="NCarro">
-            <label for="Naotemcarro">Nao possuo carro </label><br>
-            <p id="demo">Finalize o Login</p>
-            <button type="submit" onclick="myFunction()">Login</button>
+    <div class="wrapper">
+        <form action="">
+            <h1>Login</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Usuario"
+                required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Senha"
+                required>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <div class="remeber-forgot">
+            <label><input type="checkbox">Lembrar  senha</label>
+                <a href="#">Esqueci minha senha</a>
+            </div>
 
-           
+        <button type="submit" class="bnt">Login</button>
+
+        <div class="register-link">
+            <p>Nao tem uma Conta? <a href="cadastro.html">Registre-se</a></p>
+        </div>
         </form>
-    </main>
-    <footer>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-        <p>&copy; 2024 ClubeOverHaulinBrasilia todos os direitos reservados.</p>
-        
-    </footer>
+    </div>
+    
 </body>
 </html>
   

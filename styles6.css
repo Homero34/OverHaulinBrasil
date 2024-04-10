@@ -1,9 +1,19 @@
+* {
+  font-family:"Audiowide", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
 body {
     margin: 0;
     padding: 0;
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(72deg, #484848 1%, rgb(0, 0, 0) 99%);
+    background: black;
+    color: #fff;
+
   }
   
   .content {
