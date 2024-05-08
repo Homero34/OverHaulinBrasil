@@ -22,10 +22,12 @@
 
      p{
       border: 2px solid black;
-        color: rgb(255, 255, 255);
+      color: rgb(255, 255, 255);
+      font-size: 20px;
      }
      p3{
       color: white;
+      font-size: 23px;
     }
 h1{
     color: rgb(255, 255, 255);
