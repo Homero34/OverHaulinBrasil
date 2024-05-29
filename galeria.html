@@ -1,80 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt">
-  <head>
+<head>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles6.css">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria</title>
-  </head>
-  <body>
-      
-    <div = class="header-gallery">
-   <h1>Galeria de Amostra</h1>
+
+</head>
+<body>
+
+    <div class="container text-center mt-4">
+        <h1 class="display-4">Galeria de Amostra</h1>
     </div>
 
-
-      <div class="content">
-        <div class="slides">
-          <input type="radio" name="slide" id="slide1" checked>
-          <input type="radio" name="slide" id="slide2">
-          <input type="radio" name="slide" id="slide3">
-          <input type="radio" name="slide" id="slide4">
-          <input type="radio" name="slide" id="slide5">
-
-
-          <div class="slide s1">
-            <img src="./imagens/1.jpeg" alt="Fusca">
-          </div>
-
-          <div class="slide">
-            <img src="./imagens/2.jpeg" alt="Superesportivo">
-          </div>
-
-          <div class="slide">
-            <img src="./imagens/3.jpeg" alt="ferrari">
-          </div>
-
-          <div class="slide">
-            <img src="./imagens/4.jpeg" alt="varios">
-          </div>
-
-          <div class="slide">
-            <img src="./imagens/5.jpeg" alt="varios2">
-          </div>
-
+    <div class="container mt-4">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./imagens/1.jpeg" class="d-block w-100" alt="Fusca">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagens/2.jpeg" class="d-block w-100" alt="Superesportivo">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagens/3.jpeg" class="d-block w-100" alt="Ferrari">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagens/4.jpeg" class="d-block w-100" alt="Vários">
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagens/5.jpeg" class="d-block w-100" alt="Vários 2">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
-      <div class="navigation">
-        <label class="bar" for="slide1"></label>
-        <label class="bar" for="slide2"></label>
-        <label class="bar" for="slide3"></label>
-        <label class="bar" for="slide4"></label>
-        <label class="bar" for="slide5"></label>
-      </div>
-      </div>
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
 
-      <div class="layout">
-        <img src="https://images.pexels.com/photos/18818785/pexels-photo-18818785/free-photo-of-veiculos-carros-noite-sombrio.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Car">
-        </div><br><br>
+    <div class="container mt-5 text-center">
+        <img src="https://images.pexels.com/photos/18818785/pexels-photo-18818785/free-photo-of-veiculos-carros-noite-sombrio.jpeg?auto=compress&cs=tinysrgb&w=500" class="img-fluid" alt="Car">
+    </div>
 
-
-      <div class="row">
-        <div class="column-text">
-          <h2>Amostra Anual de Brasilia</h2>
-          <p3>Prepare-se para uma experiência automobilística única e emocionante! Nosso tão esperado evento anual de exibição de carros está de volta, e desta vez promete superar todas as expectativas. Reunindo entusiastas, colecionadores e amantes de carros de todas as idades, esta é a oportunidade perfeita para mergulhar no universo apaixonante dos automóveis.
-
-            De clássicos icônicos a modelos exóticos, de supercarros de última geração a obras-primas vintage meticulosamente restauradas, cada veículo é uma expressão de elegância, potência e engenharia incomparável. É uma celebração da paixão pela velocidade, pela beleza do design e pela história sobre rodas.
-            
-            Além da deslumbrante exibição de carros, também oferecemos uma atmosfera vibrante e repleta de atividades emocionantes. Desde competições de velocidade em miniaturas até demonstrações de habilidades de condução, há algo para todos os gostos e idades.
-            
-            Venha se juntar a nós neste dia memorável, onde a paixão pelos carros se transforma em uma experiência compartilhada. Traga sua família, convide seus amigos e junte-se a nós para celebrar a beleza, a elegância e a emoção dos automóveis neste evento imperdível do ano!</p3>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <h2 class="text-center">Amostra Anual de Brasília</h2>
+                <p>Prepare-se para uma experiência automobilística única e emocionante! Nosso tão esperado evento anual de exibição de carros está de volta, e desta vez promete superar todas as expectativas. Reunindo entusiastas, colecionadores e amantes de carros de todas as idades, esta é a oportunidade perfeita para mergulhar no universo apaixonante dos automóveis.</p>
+                <p>De clássicos icônicos a modelos exóticos, de supercarros de última geração a obras-primas vintage meticulosamente restauradas, cada veículo é uma expressão de elegância, potência e engenharia incomparável. É uma celebração da paixão pela velocidade, pela beleza do design e pela história sobre rodas.</p>
+                <p>Além da deslumbrante exibição de carros, também oferecemos uma atmosfera vibrante e repleta de atividades emocionantes. Desde competições de velocidade em miniaturas até demonstrações de habilidades de condução, há algo para todos os gostos e idades.</p>
+                <p>Venha se juntar a nós neste dia memorável, onde a paixão pelos carros se transforma em uma experiência compartilhada. Traga sua família, convide seus amigos e junte-se a nós para celebrar a beleza, a elegância e a emoção dos automóveis neste evento imperdível do ano!</p>
+            </div>
         </div>
-      </div><br><br>
+    </div>
 
-      
-
-
-  </body>
-  </html>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

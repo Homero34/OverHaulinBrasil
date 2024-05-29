@@ -70,7 +70,7 @@ body {
   }
   
   .slide {
-    width: 20%;
+    width: 100%;
     transition: .6s;
   }
   .slides img {
