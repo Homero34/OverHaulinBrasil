@@ -16,9 +16,10 @@ background-position: center;
 }
 
 .container-fluid {
-    width: flex;
-    height: auto;
-}
+    display: center;
+    justify-content: center;
+    align-items: center;
+  }
 
 .wrapper {
     width: 420px;
