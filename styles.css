@@ -22,5 +22,10 @@
  }
 
  p{
-  font-size: 25px;
+  font-size: 23px;
+ }
+
+ h5{
+  font-size: 30px;
+  color: black;
  }

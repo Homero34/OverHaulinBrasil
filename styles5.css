@@ -12,6 +12,18 @@ body {
  background: url('https://images.pexels.com/photos/3183190/pexels-photo-3183190.jpeg?auto=compress&cs=tinysrgb&w=12000')no-repeat;
 background-size: cover;
 background-position: center;
+font-family: "Bebas Neue", sans-serif;
+}
+
+.body2{
+display: flex;   
+ justify-content: center;
+ align-items: center;
+ min-height: 100vh;
+ background: url('https://images.pexels.com/photos/10199222/pexels-photo-10199222.jpeg?auto=compress&cs=tinysrgb&w=12000')no-repeat;
+background-size: cover;
+background-position: center;
+font-family: "Bebas Neue", sans-serif;
 }
 
 .wrapper {
